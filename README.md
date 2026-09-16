@@ -29,6 +29,4 @@ Claude Code — all shipped solo, end to end.
 
 Python · TypeScript · Next.js · Claude Agent SDK & MCP · n8n · Qdrant · PostgreSQL · Airtable · Sanity · Vercel · Hetzner
 
-### Elsewhere
 
-[breimagined.com](https://breimagined.com) · brethorup@gmail.com
