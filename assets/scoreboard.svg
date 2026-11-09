@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="300" viewBox="0 0 840 300" role="img" aria-labelledby="t d">
+  <title id="t">Bre's builder scoreboard</title>
+  <desc id="d">Level 23. 501 repos, 557 merged pull requests, 279 pull requests and 1,808 commits in the last 30 days, as of 2026-11-09.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1428"/><stop offset="1" stop-color="#050b18"/>
+    </linearGradient>
+    <linearGradient id="xp" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1d4ed8"/><stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.025"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .label { fill: #7ea6e0; font-size: 11px; letter-spacing: 1.5px; }
+    .num { fill: #dbeafe; font-size: 38px; font-weight: 700; filter: url(#glow); }
+    .title { fill: #93c5fd; font-size: 15px; letter-spacing: 4px; font-weight: 700; }
+    .big { fill: #eff6ff; font-size: 30px; font-weight: 800; letter-spacing: 2px; filter: url(#glow); }
+    .dim { fill: #5b7bb5; font-size: 11px; letter-spacing: 1.5px; }
+    .blink { fill: #60a5fa; font-size: 12px; letter-spacing: 3px; font-weight: 700; }
+  </style>
+  <rect width="840" height="300" rx="18" fill="url(#bg)"/>
+  <rect width="840" height="300" rx="18" fill="url(#scan)"/>
+  <rect x="1" y="1" width="838" height="298" rx="17" fill="none" stroke="#1e40af" stroke-width="2"/>
+
+  <text x="32" y="44" class="title">PLAYER 1 · BRE</text>
+  <text x="32" y="84" class="big">LVL 23 BUILDER</text>
+  <text x="808" y="44" class="blink" text-anchor="end">▶ PRESS START<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.55;0.6;1" dur="1.2s" repeatCount="indefinite"/></text>
+  <text x="808" y="84" class="dim" text-anchor="end">HI-SCORES AS OF 2026-11-09</text>
+
+    <g transform="translate(32 108)">
+      <rect width="182" height="92" rx="10" fill="#0f1b33" stroke="#1e3a8a"/>
+      <text x="16" y="26" class="label">REPOS BUILT</text>
+      <text x="16" y="72" class="num">501</text>
+    </g>
+    <g transform="translate(230 108)">
+      <rect width="182" height="92" rx="10" fill="#0f1b33" stroke="#1e3a8a"/>
+      <text x="16" y="26" class="label">PRs MERGED</text>
+      <text x="16" y="72" class="num">557</text>
+    </g>
+    <g transform="translate(428 108)">
+      <rect width="182" height="92" rx="10" fill="#0f1b33" stroke="#1e3a8a"/>
+      <text x="16" y="26" class="label">PRs · 30 DAYS</text>
+      <text x="16" y="72" class="num">279</text>
+    </g>
+    <g transform="translate(626 108)">
+      <rect width="182" height="92" rx="10" fill="#0f1b33" stroke="#1e3a8a"/>
+      <text x="16" y="26" class="label">COMMITS · 30 DAYS</text>
+      <text x="16" y="72" class="num">1,808</text>
+    </g>
+  <text x="32" y="226" class="dim">XP · MERGED PRs</text>
+  <text x="808" y="226" class="dim" text-anchor="end">19 TO LVL 24</text>
+  <rect x="32" y="236" width="776" height="14" rx="7" fill="#0f1b33" stroke="#1e3a8a"/>
+  <rect x="32" y="236" width="462" height="14" rx="7" fill="url(#xp)" filter="url(#glow)"/>
+  <text x="420" y="282" class="dim" text-anchor="middle">PRIVATE CLIENT WORK COUNTED · NEVER SHOWN · UPDATES NIGHTLY</text>
+</svg>
