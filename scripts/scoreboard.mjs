@@ -7,7 +7,7 @@
 // STATS_TOKEN must be able to see private repos (fine-grained PAT: all repos,
 // read-only Metadata + Pull requests + Contents). Without it, the search API only
 // sees public repos and the numbers would drop, so the script refuses to fetch.
-// If any single query fails, that stat keeps its last known value.
+// If any query fails, the whole previous card (numbers and date) is kept.
 
 import { readFile, writeFile } from "node:fs/promises";
 
@@ -35,12 +35,15 @@ async function fetchStats(previous) {
     prs30: ["issues", `author:${USER} is:pr created:>=${since}`],
     commits30: ["commits", `author:${USER} committer-date:>=${since}`],
   };
-  const next = { ...previous };
+  // All-or-nothing: the card shows one "as of" date, so a partial refresh would
+  // label stale numbers as current. Any failed query keeps the whole previous card.
+  const next = {};
   for (const [key, [kind, q]] of Object.entries(queries)) {
     try {
       next[key] = await searchCount(kind, q, token);
     } catch (err) {
-      console.warn(`keeping last ${key}=${previous[key]}: ${err.message}`);
+      console.warn(`${key} failed (${err.message}); keeping the previous card as of ${previous.asOf}.`);
+      return previous;
     }
   }
   next.asOf = new Date().toISOString().slice(0, 10);
