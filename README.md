@@ -1,4 +1,4 @@
-# Hi, I'm Bre! 👋
+# Hi, I'm Bre! 👋 (This page is under construction....)
 
 **I love connection, AI systems, and sentences that start with "what if..."**
 
@@ -65,5 +65,3 @@ I've built client-facing systems for retail operations, data migration, ecommerc
 **Shipping & collaboration:** GitHub · Vercel · Docker · documentation · user training
 
 ---
-
-*Curious minds welcome. I like technology most when it makes people feel more capable, more connected, and more themselves.*
