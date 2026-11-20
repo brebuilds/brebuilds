@@ -47,9 +47,13 @@ I opened a pull request to fix it, but the reviewer is also me... and she keeps 
 ---
 
 ### Things built with my spawn (that you should build with your spawns too!)
-Note: Make things with your kids. Seriously. You bring the tools, they bring the imagination, and somehow you both end up learning something neither of you expected.
+
+| Repo | What's in it|
+| --- | --- |
 | **[floor-is-spaghetti](https://github.com/brebuilds/floor-is-spaghetti)** | Our first Roblox game created via MCP using Claude Code! Chloe (10) came up with the idea and explained it all to Claude, who guided us through everything to get it playable that same evening.  |
 | **[marcade](https://github.com/brebuilds/marcade)** | A custom tabletop arcade built as a birthday gift, combining retro gaming and original pixel art games with real life. Chloe drew all the images that we ended up using as assets (converting her drawings to 8bit art), and she came up with some of the game ideas herself. |
+
+Note: Make things with your kids. Seriously. You bring the tools, they bring the imagination, and somehow you both end up learning something neither of you expected.
 
 ---
 
