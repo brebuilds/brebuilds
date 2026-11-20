@@ -1,51 +1,65 @@
-# hi, I'm Bre 👋
+# Hi, I'm Bre! 👋
 
-**People person. AI systems builder. Professional “wait, what if…?” enthusiast.**
+**I love connection, AI systems, and sentences that start with "what if..."**
 
-I came to tech through people — hospitality, tourism, music education, and small businesses. I love getting to know people, figuring out what they're trying to do, and watching the moment something that felt impossible starts to feel possible.
+Some years ago now I tripped and fell into a tech rabbit hole, decided it wasn't so bad down here, and started building things. 
 
-These days I build AI agents, automations, and custom software to make more of those moments happen. I like taking a messy problem from conversation to working system, explaining it in plain English, and handing people the keys.
+It was kinda fun, so then I built more things... and then even more after that! Nowadays I also love to help others build things. And I just might have a problem. Mayyyybe. 
 
-> **Learn to use AI to be more human.**
->
-> Less busywork. More room to learn, create, connect, and feel something.
+I'd call it a commitment problem, but according to GitHub, I've made plenty of those. 
 
-That's the thinking behind [LocalAI](https://localai.systems). I'm based in Ocean Isle Beach, NC, and my portfolio is a search engine, because why not: **[bre.lol](https://bre.lol)**.
+;) Oooof (sorry if you saw that coming from a mile away....)
 
-### The part I care about most
+I opened a pull request to fix it, but the reviewer is also me... and she keeps going for new features instead.
 
-Good automation should give people *more* human attention, not less. I like systems that do the research, coordinate the moving parts, and catch what would otherwise fall through the cracks — so a real person can show up for the conversation, the teaching, or the relationship.
+---
 
-**Automate the work. Not the care.**
+### Things built for humans (Work in Progress!)
 
-### Things you can click
-
-| | |
+| Repo |What's in it |
 | --- | --- |
-| **[bre.lol](https://bre.lol)** | My portfolio as a Google-style search page. "can bre…" autocomplete answers with real work. Try *I'm feeling lucky*. |
-| **[Endless CAPTCHA](https://endless-captcha.vercel.app)** · [code](https://github.com/brebuilds/endless-captcha) | One "I'm not a robot" checkbox, then an endless run of challenges that slowly lose their minds. Embeddable. |
-| **[Explore the Island](https://oib-game.vercel.app)** · [code](https://github.com/brebuilds/oib-game) | A walkable Ocean Isle Beach in hand-written Three.js: locals with dialog, a discovery journal, day turning into night. |
+| **[digital-deed](link)** | After seeing how easily small businesses can lose track of—or even control over—the technology they depend on, I started building Digital Deed. It's a way for business owners and their tech people to stay on the same page about what exists, who owns what, who has access, what's being paid for, and what happens when things change. From onboarding to ongoing management to eventually handing over the keys if desired. Because getting help shouldn't mean becoming dependent someone else forever. Technology can change, the deed remains with the business.|
+| **[eog-test-prep](link)** | What started as a way to ease my daughter's test anxiety grew into a multi-grade learning platform that recreates North Carolina's digital EOG testing experience, including year-round Check-In assessments. Teachers can also use AI, state standards, and their own materials to create custom assessments. My proudest moment: a teacher across the state discovered it independently and emailed to say it was making a difference. 🥹 |
+| **[inventory-race](link)** | Turned a boutique's painfully tedious inventory count into a live, head-to-head multiplayer competition, complete with phone-based stocktaking so all teammembers could work independently, progress tracking, milestones, and a leaderboard. Proudly gamifying painful tasks since '23 |
+| **[localai-portal](Link)** | |
 
-### Things you can run, read, or borrow
+### Things built for bots (Work in Progress!)
+
+| Repo |What's in it |
+| --- | --- |
+| **[useful-automations](Link)** | Non-personal versions of tools I actually run. Each ships a CLI and a `SKILL.md` so an agent can run it too. First one: find local businesses with no website, by ZIP code. |
+| **[claude-skills](Link)** | Claude Code skills: multi-subagent orchestration with context isolation, knowledge-graph extraction, API integration patterns, and reusable agent workflows. |
+| **[claude-agent-sandbox](Link)** | What actually restricts a spawned coding agent (and why `--allowed-tools` doesn't), an atomic filesystem task queue, and prompt-injection fencing. 52 tests. |
+| **[eagle-bridge](Link)** + **[eagle-mcp](https://github.com/brebuilds/eagle-mcp)**  Turns the Eagle asset manager into a print-on-demand asset store, plus an MCP so an agent can use it without ever seeing the token. |
+| **[pod-tools](Link)**  |
+
+---
+
+### Explorations & unsupervised curiosity (Work in Progress!)
 
 | Repo | What's in it |
 | --- | --- |
-| **[useful-automations](https://github.com/brebuilds/useful-automations)** | Non-personal versions of tools I actually run. Each ships a CLI and a `SKILL.md` so an agent can run it too. First one: find local businesses with no website, by ZIP code. |
-| **[claude-skills](https://github.com/brebuilds/claude-skills)** | Claude Code skills: multi-subagent orchestration with context isolation, knowledge-graph extraction, API integration patterns, and reusable agent workflows. |
-| **[claude-agent-sandbox](https://github.com/brebuilds/claude-agent-sandbox)** | What actually restricts a spawned coding agent (and why `--allowed-tools` doesn't), an atomic filesystem task queue, and prompt-injection fencing. 52 tests. |
-| **[etsy-mcp](https://github.com/brebuilds/etsy-mcp)** | MCP server for the Etsy API: OAuth2 PKCE, token refresh, multi-shop. |
-| **[mcp-clickup-bre](https://github.com/brebuilds/mcp-clickup-bre)** | The ClickUp API as 101 MCP tools, with consistent auth, errors and pagination. CI on every push. |
-| **[eagle-bridge](https://github.com/brebuilds/eagle-bridge)** + **[eagle-mcp](https://github.com/brebuilds/eagle-mcp)** | Turns the Eagle asset manager into a print-on-demand asset store, plus an MCP so an agent can use it without ever seeing the token. |
-| **[theremin-vst](https://github.com/brebuilds/theremin-vst)** | A VST3 plugin (JUCE/C++) that turns hand position into MIDI. Play any synth in the air. |
+| **[DO NOT PRESS](Link)** | |
+| **[Endless CAPTCHA](Link)** | |
+| **[Webcam Clay] (Link)** | |
+| **[theremin-air](Link)** | |
 
-### The work that doesn't fit in a public repo
+---
+
+### Things built with my spawn (that you should build with your spawns too!)
+Note: Make things with your kids. Seriously. You bring the tools, they bring the imagination, and somehow you both end up learning something neither of you expected.
+| **[floor-is-spaghetti](https://github.com/brebuilds/floor-is-spaghetti)** | Our first Roblox game created via MCP using Claude Code! Chloe (10) came up with the idea and explained it all to Claude, who guided us through everything to get it playable that same evening.  |
+| **[marcade](https://github.com/brebuilds/marcade)** | A custom tabletop arcade built as a birthday gift, combining retro gaming and original pixel art games with real life. Chloe drew all the images that we ended up using as assets (converting her drawings to 8bit art), and she came up with some of the game ideas herself. |
+
+---
+
+### Behind closed repos (Work in Progress!)
 
 I've built client-facing systems for retail operations, data migration, ecommerce, staff onboarding, and business automation. Some of that code belongs to clients; what I can share publicly are the patterns, tools, and lessons I've generalized from real projects.
 
-The engineering matters, but so does whether the person on the other end actually *wants* to use what I built.
+---
 
-### What I build with
-
+### Weapons of mass production
 **Agents & automation:** Claude Code · MCP · reusable skills · n8n · APIs · scheduled workflows  
 **Software & data:** TypeScript · Python · Next.js · PostgreSQL · Airtable · Shopify  
 **Shipping & collaboration:** GitHub · Vercel · Docker · documentation · user training
