@@ -30,7 +30,7 @@ I opened a pull request to fix it, but the reviewer is also me... and she keeps 
 | **[useful-automations](Link)** | Non-personal versions of tools I actually run. Each ships a CLI and a `SKILL.md` so an agent can run it too. First one: find local businesses with no website, by ZIP code. |
 | **[claude-skills](Link)** | Claude Code skills: multi-subagent orchestration with context isolation, knowledge-graph extraction, API integration patterns, and reusable agent workflows. |
 | **[claude-agent-sandbox](Link)** | What actually restricts a spawned coding agent (and why `--allowed-tools` doesn't), an atomic filesystem task queue, and prompt-injection fencing. 52 tests. |
-| **[eagle-bridge](Link)** + **[eagle-mcp](https://github.com/brebuilds/eagle-mcp)**  Turns the Eagle asset manager into a print-on-demand asset store, plus an MCP so an agent can use it without ever seeing the token. |
+| **[eagle-bridge](Link)** + **[eagle-mcp](https://github.com/brebuilds/eagle-mcp)** | Turns the Eagle asset manager into a print-on-demand asset store, plus an MCP so an agent can use it without ever seeing the token. |
 | **[pod-tools](Link)**  |
 
 ---
